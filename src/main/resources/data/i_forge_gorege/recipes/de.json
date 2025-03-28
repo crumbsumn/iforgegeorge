@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "i_forge_gorege:actual_obsidian_paxel"
+  },
+  "addition": {
+    "item": "minecraft:bedrock"
+  },
+  "result": {
+    "item": "i_forge_gorege:bedrock_pick"
+  }
+}

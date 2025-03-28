@@ -1,0 +1,11 @@
+{
+  "_fv": 77,
+  "_type": "tab",
+  "definition": {
+    "name": "IFG Experimental",
+    "icon": {
+      "value": "CUSTOM:PurpleBean"
+    },
+    "showSearch": true
+  }
+}

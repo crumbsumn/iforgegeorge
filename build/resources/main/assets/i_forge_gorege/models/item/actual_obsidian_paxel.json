@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "i_forge_gorege:item/obsidian_pickaxe"
+  }
+}

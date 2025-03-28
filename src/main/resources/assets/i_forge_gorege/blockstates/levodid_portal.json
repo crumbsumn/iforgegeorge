@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "i_forge_gorege:block/levodid_portal_ew"
+    },
+    "axis=x": {
+      "model": "i_forge_gorege:block/levodid_portal_ns"
+    }
+  }
+}

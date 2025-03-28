@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "i_forge_gorege:leminigun",
+    "b": "minecraft:gunpowder"
+  },
+  "result": {
+    "id": "i_forge_gorege:rocketlauncher",
+    "count": 1
+  }
+}

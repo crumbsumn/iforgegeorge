@@ -1,0 +1,11 @@
+{
+  "_fv": 77,
+  "_type": "tab",
+  "definition": {
+    "name": "IFG Blocks",
+    "icon": {
+      "value": "CUSTOM:SUN"
+    },
+    "showSearch": true
+  }
+}

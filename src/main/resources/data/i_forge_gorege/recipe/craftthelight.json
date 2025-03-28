@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "i_forge_gorege:sun",
+    "b": "minecraft:stick",
+    "c": "minecraft:redstone"
+  },
+  "result": {
+    "id": "i_forge_gorege:flashlight",
+    "count": 1
+  }
+}

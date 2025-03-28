@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:cobblestone",
+    "b": "minecraft:netherite_block",
+    "c": "minecraft:stick"
+  },
+  "result": {
+    "id": "i_forge_gorege:walmart_obsidian_pickaxe",
+    "count": 1
+  }
+}

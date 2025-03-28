@@ -1,0 +1,842 @@
+{
+  "mod_elements": [
+    {
+      "name": "Flashlight",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashlight"
+    },
+    {
+      "name": "FlashlightRightClickedOnBloturnblocksintofglowstone",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashlight_right_clicked_on_bloturnblocksintofglowstone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SUN",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun"
+    },
+    {
+      "name": "SUNCRAFT",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suncraft"
+    },
+    {
+      "name": "Lean",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lean"
+    },
+    {
+      "name": "Bean",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean"
+    },
+    {
+      "name": "Craftthelight",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftthelight"
+    },
+    {
+      "name": "WalmartObsidianPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walmart_obsidian_pickaxe"
+    },
+    {
+      "name": "Obpick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obpick"
+    },
+    {
+      "name": "Realgun",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "realgun"
+    },
+    {
+      "name": "Gunrecip",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunrecip"
+    },
+    {
+      "name": "Nut",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nut"
+    },
+    {
+      "name": "Nutgaming",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nutgaming",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "Summonnut",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summonnut",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Iphone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iphone"
+    },
+    {
+      "name": "Ihpone",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ihpone"
+    },
+    {
+      "name": "IphoneGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iphone_gui"
+    },
+    {
+      "name": "ActualObsidianPaxel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actual_obsidian_paxel"
+    },
+    {
+      "name": "E",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e"
+    },
+    {
+      "name": "Diamondshop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondshop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Irongen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irongen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Goldgen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldgen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fly",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MissingChunk",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_chunk"
+    },
+    {
+      "name": "Levodid",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levodid",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "BeansAKAGapple",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beans_aka_gapple",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Beanselect",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beanselect"
+    },
+    {
+      "name": "Loadgui",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loadgui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VODK",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodk",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hell",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hell",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HOLYSHITYOUCANMINEBEDROCK",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holyshityoucanminebedrock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Water",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water"
+    },
+    {
+      "name": "BedrockStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_stairs"
+    },
+    {
+      "name": "Bedst",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedst"
+    },
+    {
+      "name": "BedrockPick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_pick"
+    },
+    {
+      "name": "Bed1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bed_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "De",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "de"
+    },
+    {
+      "name": "Nuke",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BedrockArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BedrockArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor_helmet_recipe"
+    },
+    {
+      "name": "BedrockArmorBodyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor_body_recipe"
+    },
+    {
+      "name": "BedrockArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor_leggings_recipe"
+    },
+    {
+      "name": "BedrockArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor_boots_recipe"
+    },
+    {
+      "name": "Jellybean",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jellybean"
+    },
+    {
+      "name": "Rocket",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket"
+    },
+    {
+      "name": "PurpleBean",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_bean"
+    },
+    {
+      "name": "The",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the"
+    },
+    {
+      "name": "Dont",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dont"
+    },
+    {
+      "name": "Spread",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spread",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Beans",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beans"
+    },
+    {
+      "name": "GodBeans",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_beans"
+    },
+    {
+      "name": "Floppa",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floppa"
+    },
+    {
+      "name": "Borgir",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borgir"
+    },
+    {
+      "name": "Borgio",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borgio"
+    },
+    {
+      "name": "Weapons",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapons"
+    },
+    {
+      "name": "IFGTools",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ifg_tools"
+    },
+    {
+      "name": "Items",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "items"
+    },
+    {
+      "name": "Foods",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foods"
+    },
+    {
+      "name": "Experimental",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experimental"
+    },
+    {
+      "name": "Ifgblocks",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ifgblocks"
+    },
+    {
+      "name": "LeminigunProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leminigun_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/entity/LeminigunProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Leminigun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leminigun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/models/item/leminigun.json",
+          "src/main/java/net/mcreator/iforgegorege/item/LeminigunItem.java",
+          "src/main/resources/assets/i_forge_gorege/items/leminigun.json"
+        ]
+      }
+    },
+    {
+      "name": "NutgamingFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nutgaming_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/worldgen/placed_feature/nutgaming_feature.json",
+          "src/main/resources/data/i_forge_gorege/neoforge/biome_modifier/nutgaming_feature_biome_modifier.json",
+          "src/main/resources/data/i_forge_gorege/worldgen/configured_feature/nutgaming_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "Smart",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/items/smart.json",
+          "src/main/resources/assets/i_forge_gorege/models/item/smart.json",
+          "src/main/java/net/mcreator/iforgegorege/item/SmartItem.java",
+          "src/main/resources/data/i_forge_gorege/jukebox_song/smart.json"
+        ]
+      }
+    },
+    {
+      "name": "RocketlauncherProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocketlauncher_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/entity/RocketlauncherProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Rocketlauncher",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocketlauncher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/items/rocketlauncher.json",
+          "src/main/resources/assets/i_forge_gorege/models/item/rocketlauncher.json",
+          "src/main/java/net/mcreator/iforgegorege/item/RocketlauncherItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "unfunny",
+      "files": [
+        "y2mateis-reading-my-awful-hate-comments-eyr5jz5sqd8-160k-164784320_icyb6fpu"
+      ],
+      "category": "neutral",
+      "subtitle": "bozo speaking"
+    },
+    {
+      "name": "smartrace",
+      "files": [
+        "y2mate.is-smart-race-hzo3xw91ehw-160k-1647150811853"
+      ],
+      "category": "neutral",
+      "subtitle": "bozo music"
+    },
+    {
+      "name": "burenyuu",
+      "files": [
+        "burenyuu"
+      ],
+      "category": "neutral",
+      "subtitle": "burenyuu"
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Rocketlauncher",
+      "~CUSTOM:Leminigun"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Smart"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "fluid.i_forge_gorege.nutgaming": "\"milk\"",
+      "biome.i_forge_gorege.missing_chunk": "Missing Biome",
+      "item.i_forge_gorege.flashlight": "Flashlight(real)",
+      "item.i_forge_gorege.leminigun": "holy crap this is a real minigun",
+      "block.i_forge_gorege.bedrock_stairs": "Bedrock Stairs",
+      "item.i_forge_gorege.bedrock_armor_chestplate": "Bedrock Chestplate",
+      "item.i_forge_gorege.actual_obsidian_paxel": "Walmart Obsidian Paxel",
+      "itemGroup.tabfoods": "IFG Foods",
+      "block.i_forge_gorege.dont": "...",
+      "subtitles.burenyuu": "burenyuu",
+      "item.i_forge_gorege.rocketlauncher": "Rocket launcher",
+      "itemGroup.tabitems": "IFG Items",
+      "item.i_forge_gorege.bedrock_pick": "Bedrock Pickaxe",
+      "item.i_forge_gorege.jellybean_spawn_egg": "Jellybean Spawn Egg",
+      "subtitles.smartrace": "bozo music",
+      "entity.i_forge_gorege.floppa": "Floppa",
+      "item.minecraft.splash_potion.effect.lean": "Splash of Lean",
+      "item.minecraft.lingering_potion.effect.lean": "Lingering of Lean",
+      "item.i_forge_gorege.leminigun.description_0": "real",
+      "subtitles.unfunny": "bozo speaking",
+      "item.i_forge_gorege.floppa_spawn_egg": "Floppa Spawn Egg",
+      "itemGroup.tabexperimental": "IFG Experimental",
+      "entity.i_forge_gorege.jellybean": "Jellybean",
+      "item.i_forge_gorege.purple_bean": "Purple Bean",
+      "item.minecraft.potion.effect.lean": "Lean",
+      "item.i_forge_gorege.bedrock_armor_helmet": "Bedrock Helmet",
+      "item.i_forge_gorege.bedrock_armor_leggings": "Bedrock Leggings",
+      "item.i_forge_gorege.levodid": "Powered Beans(Igniter)",
+      "item.i_forge_gorege.nutgaming_bucket": "Nutgaming Bucket",
+      "item.i_forge_gorege.beans": "Beans",
+      "itemGroup.tabifgblocks": "IFG Blocks",
+      "item.i_forge_gorege.iphone": "Iphone",
+      "item.i_forge_gorege.god_beans": "Enchanted Beans",
+      "item.i_forge_gorege.smart": "Smart Race",
+      "item.i_forge_gorege.walmart_obsidian_pickaxe": "Walmart Obsidian Pickaxe",
+      "item.i_forge_gorege.borgir": "borgir",
+      "itemGroup.tabweapons": "IFG Weapons/Armor",
+      "item.i_forge_gorege.bedrock_armor_boots": "Bedrock Boots",
+      "itemGroup.tabifg_tools": "IFG Tools",
+      "item.minecraft.tipped_arrow.effect.lean": "Arrow of Lean",
+      "enchantment.i_forge_gorege.nut": "Nut",
+      "block.i_forge_gorege.nutgaming": "\"milk\"",
+      "block.i_forge_gorege.sun": "SUN",
+      "item.i_forge_gorege.smart.desc": "berdly"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Creative Tab",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "i_forge_gorege",
+    "modName": "i forge gorege",
+    "version": "1.1",
+    "description": "you really think i didnt fill this out yet?",
+    "author": "mariogaming",
+    "websiteURL": "https://mcreator.net",
+    "license": "Custom License",
+    "serverSideOnly": false,
+    "modPicture": "sdasdasd1",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "mariogamingcreator",
+    "modElementsPackage": "net.mcreator.iforgegorege"
+  },
+  "mcreatorVersion": 202200120510
+}

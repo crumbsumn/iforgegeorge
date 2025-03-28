@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "minecraft:stone_button"
+  },
+  "result": {
+    "id": "i_forge_gorege:dont",
+    "count": 1
+  }
+}

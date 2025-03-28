@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "i_forge_gorege:bedrock_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "i_forge_gorege:bedrock_armor"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "i_forge_gorege:block/what",
+    "up": "i_forge_gorege:block/what",
+    "north": "i_forge_gorege:block/what",
+    "east": "i_forge_gorege:block/what",
+    "south": "i_forge_gorege:block/what",
+    "west": "i_forge_gorege:block/what",
+    "particle": "i_forge_gorege:block/what"
+  },
+  "render_type": "solid"
+}

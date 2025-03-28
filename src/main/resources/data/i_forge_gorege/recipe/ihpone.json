@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:netherite_block",
+    "b": "minecraft:iron_ingot",
+    "c": "minecraft:glass"
+  },
+  "result": {
+    "id": "i_forge_gorege:iphone",
+    "count": 1
+  }
+}

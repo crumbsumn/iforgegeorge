@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:bread"
+    },
+    "3": {
+      "item": "minecraft:oak_leaves"
+    },
+    "4": {
+      "item": "minecraft:redstone"
+    },
+    "5": {
+      "item": "minecraft:cooked_beef"
+    },
+    "7": {
+      "item": "minecraft:bread"
+    },
+    "8": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "i_forge_gorege:borgir",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "b "
+  ],
+  "key": {
+    "a": "minecraft:stone",
+    "b": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "i_forge_gorege:leminigun",
+    "count": 1
+  }
+}

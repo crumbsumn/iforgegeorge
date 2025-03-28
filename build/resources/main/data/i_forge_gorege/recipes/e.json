@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "i_forge_gorege:walmart_obsidian_pickaxe"
+  },
+  "addition": {
+    "item": "minecraft:crying_obsidian"
+  },
+  "result": {
+    "item": "i_forge_gorege:actual_obsidian_paxel"
+  }
+}

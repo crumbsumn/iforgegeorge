@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "i_forge_gorege:block/lesun",
+    "up": "i_forge_gorege:block/lesun",
+    "north": "i_forge_gorege:block/lesun",
+    "east": "i_forge_gorege:block/lesun",
+    "south": "i_forge_gorege:block/lesun",
+    "west": "i_forge_gorege:block/lesun",
+    "particle": "i_forge_gorege:block/lesun"
+  },
+  "render_type": "solid"
+}

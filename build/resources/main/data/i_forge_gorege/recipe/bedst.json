@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:bedrock"
+  },
+  "result": {
+    "id": "i_forge_gorege:bedrock_stairs",
+    "count": 8
+  }
+}

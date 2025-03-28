@@ -1,0 +1,102 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 200,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_creative_menu",
+          "text": {
+            "fixedValue": "Creative menu"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_iron_giver",
+          "text": "Iron Giver",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Irongen"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 227,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_diamond_giver",
+          "text": "Diamond Giver",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Diamondshop"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 216,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_gold_giver",
+          "text": "Gold Giver",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Goldgen"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 227,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_fly",
+          "text": "Fly",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Fly"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 122,
+          "y": 161,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 21,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

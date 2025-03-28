@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "key": {
+    "a": "minecraft:glow_lichen",
+    "b": "minecraft:glowstone_dust",
+    "c": "minecraft:glowstone"
+  },
+  "result": {
+    "id": "i_forge_gorege:sun",
+    "count": 1
+  }
+}

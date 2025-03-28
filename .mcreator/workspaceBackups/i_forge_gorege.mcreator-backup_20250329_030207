@@ -1,0 +1,1299 @@
+{
+  "mod_elements": [
+    {
+      "name": "Flashlight",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashlight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/item/FlashlightItem.java",
+          "src/main/resources/assets/i_forge_gorege/models/item/flashlight.json",
+          "src/main/resources/assets/i_forge_gorege/items/flashlight.json"
+        ]
+      }
+    },
+    {
+      "name": "FlashlightRightClickedOnBloturnblocksintofglowstone",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashlight_right_clicked_on_bloturnblocksintofglowstone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/FlashlightRightClickedOnBloturnblocksintofglowstoneProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SUN",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/models/item/sun.json",
+          "src/main/resources/assets/i_forge_gorege/blockstates/sun.json",
+          "src/main/java/net/mcreator/iforgegorege/block/SUNBlock.java",
+          "src/main/resources/assets/i_forge_gorege/models/block/sun.json",
+          "src/main/resources/assets/i_forge_gorege/items/sun.json",
+          "src/main/resources/data/i_forge_gorege/loot_table/blocks/sun.json"
+        ]
+      }
+    },
+    {
+      "name": "SUNCRAFT",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/suncraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Lean",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lean",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Bean",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/bean.json"
+        ]
+      }
+    },
+    {
+      "name": "Craftthelight",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftthelight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/craftthelight.json"
+        ]
+      }
+    },
+    {
+      "name": "WalmartObsidianPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walmart_obsidian_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/models/item/walmart_obsidian_pickaxe.json",
+          "src/main/resources/assets/i_forge_gorege/items/walmart_obsidian_pickaxe.json",
+          "src/main/java/net/mcreator/iforgegorege/item/WalmartObsidianPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Obpick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obpick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/obpick.json"
+        ]
+      }
+    },
+    {
+      "name": "Realgun",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "realgun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/recipe/brewing/RealgunBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Gunrecip",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunrecip",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/gunrecip.json"
+        ]
+      }
+    },
+    {
+      "name": "Nut",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/enchantment/nut.json"
+        ]
+      }
+    },
+    {
+      "name": "Nutgaming",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nutgaming",
+      "metadata": {
+        "gb": true,
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/blockstates/nutgaming.json",
+          "src/main/java/net/mcreator/iforgegorege/fluid/NutgamingFluid.java",
+          "src/main/java/net/mcreator/iforgegorege/block/NutgamingBlock.java",
+          "src/main/java/net/mcreator/iforgegorege/fluid/types/NutgamingFluidType.java",
+          "src/main/resources/assets/i_forge_gorege/items/nutgaming_bucket.json",
+          "src/main/java/net/mcreator/iforgegorege/item/NutgamingItem.java",
+          "src/main/resources/assets/i_forge_gorege/models/block/nutgaming.json"
+        ]
+      }
+    },
+    {
+      "name": "Summonnut",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summonnut",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/SummonnutProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Iphone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iphone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/item/IphoneItem.java",
+          "src/main/resources/assets/i_forge_gorege/models/item/iphone.json",
+          "src/main/java/net/mcreator/iforgegorege/item/inventory/IphoneInventoryCapability.java",
+          "src/main/resources/assets/i_forge_gorege/items/iphone.json"
+        ]
+      }
+    },
+    {
+      "name": "Ihpone",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ihpone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/ihpone.json"
+        ]
+      }
+    },
+    {
+      "name": "IphoneGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iphone_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/world/inventory/IphoneGUIMenu.java",
+          "src/main/java/net/mcreator/iforgegorege/client/gui/IphoneGUIScreen.java",
+          "src/main/java/net/mcreator/iforgegorege/network/IphoneGUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "ActualObsidianPaxel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actual_obsidian_paxel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/models/item/actual_obsidian_paxel.json",
+          "src/main/java/net/mcreator/iforgegorege/item/ActualObsidianPaxelItem.java",
+          "src/main/resources/assets/i_forge_gorege/items/actual_obsidian_paxel.json"
+        ]
+      }
+    },
+    {
+      "name": "E",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/e.json"
+        ]
+      }
+    },
+    {
+      "name": "Diamondshop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondshop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/DiamondshopProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Irongen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irongen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/IrongenProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Goldgen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldgen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/GoldgenProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Fly",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/FlyProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "MissingChunk",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_chunk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/worldgen/configured_feature/missing_chunk_tree.json",
+          "src/main/resources/data/i_forge_gorege/worldgen/biome/missing_chunk.json",
+          "src/main/resources/data/i_forge_gorege/worldgen/placed_feature/missing_chunk_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Levodid",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levodid",
+      "metadata": {
+        "ep": true,
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/block/LevodidPortalBlock.java",
+          "src/main/java/net/mcreator/iforgegorege/world/teleporter/LevodidPortalShape.java",
+          "src/main/resources/data/i_forge_gorege/dimension_type/levodid.json",
+          "src/main/resources/data/i_forge_gorege/dimension/levodid.json",
+          "src/main/java/net/mcreator/iforgegorege/world/dimension/LevodidDimension.java",
+          "src/main/resources/assets/i_forge_gorege/blockstates/levodid_portal.json",
+          "src/main/resources/assets/i_forge_gorege/models/block/levodid_portal_ns.json",
+          "src/main/java/net/mcreator/iforgegorege/item/LevodidItem.java",
+          "src/main/resources/assets/i_forge_gorege/models/item/levodid.json",
+          "src/main/java/net/mcreator/iforgegorege/world/teleporter/LevodidTeleporter.java",
+          "src/main/resources/assets/i_forge_gorege/models/block/levodid_portal_ew.json",
+          "src/main/resources/assets/i_forge_gorege/items/levodid.json"
+        ]
+      }
+    },
+    {
+      "name": "BeansAKAGapple",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beans_aka_gapple",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/BeansAKAGappleProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Beanselect",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beanselect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/client/gui/BeanselectScreen.java",
+          "src/main/java/net/mcreator/iforgegorege/network/BeanselectButtonMessage.java",
+          "src/main/java/net/mcreator/iforgegorege/world/inventory/BeanselectMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Loadgui",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loadgui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/LoadguiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "VODK",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodk",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/VODKProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Hell",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hell",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/HellProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HOLYSHITYOUCANMINEBEDROCK",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holyshityoucanminebedrock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/HOLYSHITYOUCANMINEBEDROCKProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Water",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/client/screens/WaterOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "BedrockStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/models/block/bedrock_stairs.json",
+          "src/main/resources/assets/i_forge_gorege/models/item/bedrock_stairs.json",
+          "src/main/resources/assets/i_forge_gorege/models/block/bedrock_stairs_inner.json",
+          "src/main/resources/assets/i_forge_gorege/models/block/bedrock_stairs_outer.json",
+          "src/main/resources/data/i_forge_gorege/loot_table/blocks/bedrock_stairs.json",
+          "src/main/resources/assets/i_forge_gorege/blockstates/bedrock_stairs.json",
+          "src/main/java/net/mcreator/iforgegorege/block/BedrockStairsBlock.java",
+          "src/main/resources/assets/i_forge_gorege/items/bedrock_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "Bedst",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedst",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/bedst.json"
+        ]
+      }
+    },
+    {
+      "name": "BedrockPick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_pick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/item/BedrockPickItem.java",
+          "src/main/resources/assets/i_forge_gorege/models/item/bedrock_pick.json",
+          "src/main/resources/assets/i_forge_gorege/items/bedrock_pick.json"
+        ]
+      }
+    },
+    {
+      "name": "Bed1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bed_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/Bed1Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "De",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "de",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/de.json"
+        ]
+      }
+    },
+    {
+      "name": "Nuke",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/NukeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BedrockArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/models/item/bedrock_armor_boots.json",
+          "src/main/resources/assets/i_forge_gorege/items/bedrock_armor_boots.json",
+          "src/main/resources/assets/i_forge_gorege/models/item/bedrock_armor_chestplate.json",
+          "src/main/java/net/mcreator/iforgegorege/item/BedrockArmorItem.java",
+          "src/main/resources/assets/i_forge_gorege/items/bedrock_armor_leggings.json",
+          "src/main/resources/assets/i_forge_gorege/equipment/bedrock_armor.json",
+          "src/main/resources/assets/i_forge_gorege/items/bedrock_armor_helmet.json",
+          "src/main/resources/assets/i_forge_gorege/items/bedrock_armor_chestplate.json",
+          "src/main/resources/assets/i_forge_gorege/models/item/bedrock_armor_helmet.json",
+          "src/main/resources/assets/i_forge_gorege/models/item/bedrock_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "BedrockArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/bedrock_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BedrockArmorBodyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/bedrock_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BedrockArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/bedrock_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BedrockArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/bedrock_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Jellybean",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jellybean",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/entity/JellybeanEntity.java",
+          "src/main/java/net/mcreator/iforgegorege/client/renderer/JellybeanRenderer.java",
+          "src/main/resources/assets/i_forge_gorege/items/jellybean_spawn_egg.json",
+          "src/main/resources/data/i_forge_gorege/neoforge/biome_modifier/jellybean_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Rocket",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/rocket.json"
+        ]
+      }
+    },
+    {
+      "name": "PurpleBean",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_bean",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/item/PurpleBeanItem.java",
+          "src/main/resources/assets/i_forge_gorege/items/purple_bean.json",
+          "src/main/resources/assets/i_forge_gorege/models/item/purple_bean.json"
+        ]
+      }
+    },
+    {
+      "name": "The",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/the.json"
+        ]
+      }
+    },
+    {
+      "name": "Dont",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dont",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/blockstates/dont.json",
+          "src/main/resources/assets/i_forge_gorege/models/item/dont.json",
+          "src/main/resources/assets/i_forge_gorege/items/dont.json",
+          "src/main/resources/assets/i_forge_gorege/models/block/dont.json",
+          "src/main/resources/data/i_forge_gorege/loot_table/blocks/dont.json",
+          "src/main/java/net/mcreator/iforgegorege/block/DontBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Spread",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spread",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/procedures/SpreadProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Beans",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beans",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/models/item/beans.json",
+          "src/main/java/net/mcreator/iforgegorege/item/BeansItem.java",
+          "src/main/resources/assets/i_forge_gorege/items/beans.json"
+        ]
+      }
+    },
+    {
+      "name": "GodBeans",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_beans",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/models/item/god_beans.json",
+          "src/main/resources/assets/i_forge_gorege/items/god_beans.json",
+          "src/main/java/net/mcreator/iforgegorege/item/GodBeansItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Floppa",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floppa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/neoforge/biome_modifier/floppa_biome_modifier.json",
+          "src/main/resources/assets/i_forge_gorege/items/floppa_spawn_egg.json",
+          "src/main/java/net/mcreator/iforgegorege/client/renderer/FloppaRenderer.java",
+          "src/main/java/net/mcreator/iforgegorege/entity/FloppaEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Borgir",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borgir",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/items/borgir.json",
+          "src/main/resources/assets/i_forge_gorege/models/item/borgir.json",
+          "src/main/java/net/mcreator/iforgegorege/item/BorgirItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Borgio",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borgio",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/recipe/borgio.json"
+        ]
+      }
+    },
+    {
+      "name": "Weapons",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapons",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "IFGTools",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ifg_tools",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Items",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "items",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Foods",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foods",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Experimental",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experimental",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Ifgblocks",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ifgblocks",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LeminigunProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leminigun_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/entity/LeminigunProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Leminigun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leminigun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/models/item/leminigun.json",
+          "src/main/java/net/mcreator/iforgegorege/item/LeminigunItem.java",
+          "src/main/resources/assets/i_forge_gorege/items/leminigun.json"
+        ]
+      }
+    },
+    {
+      "name": "NutgamingFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nutgaming_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/i_forge_gorege/worldgen/placed_feature/nutgaming_feature.json",
+          "src/main/resources/data/i_forge_gorege/neoforge/biome_modifier/nutgaming_feature_biome_modifier.json",
+          "src/main/resources/data/i_forge_gorege/worldgen/configured_feature/nutgaming_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "Smart",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/items/smart.json",
+          "src/main/resources/assets/i_forge_gorege/models/item/smart.json",
+          "src/main/java/net/mcreator/iforgegorege/item/SmartItem.java",
+          "src/main/resources/data/i_forge_gorege/jukebox_song/smart.json"
+        ]
+      }
+    },
+    {
+      "name": "RocketlauncherProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocketlauncher_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/iforgegorege/entity/RocketlauncherProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Rocketlauncher",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocketlauncher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/i_forge_gorege/items/rocketlauncher.json",
+          "src/main/resources/assets/i_forge_gorege/models/item/rocketlauncher.json",
+          "src/main/java/net/mcreator/iforgegorege/item/RocketlauncherItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "unfunny",
+      "files": [
+        "y2mateis-reading-my-awful-hate-comments-eyr5jz5sqd8-160k-164784320_icyb6fpu"
+      ],
+      "category": "neutral",
+      "subtitle": "bozo speaking"
+    },
+    {
+      "name": "smartrace",
+      "files": [
+        "y2mate.is-smart-race-hzo3xw91ehw-160k-1647150811853"
+      ],
+      "category": "neutral",
+      "subtitle": "bozo music"
+    },
+    {
+      "name": "burenyuu",
+      "files": [
+        "burenyuu"
+      ],
+      "category": "neutral",
+      "subtitle": "burenyuu"
+    }
+  ],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Nutgaming"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:BedrockArmor.body"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Rocketlauncher",
+      "~CUSTOM:Leminigun"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "ITEMS:i_forge_gorege:walmart_obsidian_pickaxe_repair_items": [
+      "~Blocks.OBSIDIAN"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:BedrockPick",
+      "~CUSTOM:ActualObsidianPaxel"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:BedrockStairs"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:Nut"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BedrockPick",
+      "~CUSTOM:ActualObsidianPaxel"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:BedrockArmor.helmet"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_ruin_warm": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_monument": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "ITEMS:i_forge_gorege:bedrock_armor_repair_items": [
+      "~Blocks.BEDROCK"
+    ],
+    "ENCHANTMENTS:minecraft:non_treasure": [
+      "~CUSTOM:Nut"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:BedrockPick",
+      "~CUSTOM:ActualObsidianPaxel",
+      "~CUSTOM:WalmartObsidianPickaxe"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:Borgir"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.AIR"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Smart"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:Nut"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:BedrockArmor.boots"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:MissingChunk"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:BedrockArmor.legs"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.i_forge_gorege.iphone_gui.button_iron_giver": "Iron Giver",
+      "gui.i_forge_gorege.beanselect.label_select_your_beans": "Select Your Beans!",
+      "biome.i_forge_gorege.missing_chunk": "Missing Biome",
+      "item_group.i_forge_gorege.ifg_tools": "IFG Tools",
+      "item.i_forge_gorege.leminigun": "holy crap this is a real minigun",
+      "item.i_forge_gorege.bedrock_armor_chestplate": "Bedrock Chestplate",
+      "gui.i_forge_gorege.beanselect.button_void_igniter": "Void Igniter",
+      "gui.i_forge_gorege.water.label_liek_and_subscrib": "liek and subscrib",
+      "item.i_forge_gorege.actual_obsidian_paxel": "Walmart Obsidian Paxel",
+      "itemGroup.tabfoods": "IFG Foods",
+      "item_group.i_forge_gorege.weapons": "IFG Weapons/Armor",
+      "item_group.i_forge_gorege.ifgblocks": "IFG Blocks",
+      "item.i_forge_gorege.rocketlauncher": "Rocket launcher",
+      "block.i_forge_gorege.dont.description_0": "DONT USE THIS",
+      "item.i_forge_gorege.bedrock_pick": "Bedrock Pickaxe",
+      "item.i_forge_gorege.jellybean_spawn_egg": "Jellybean Spawn Egg",
+      "item.minecraft.splash_potion.effect.lean": "Splash of Lean",
+      "item.minecraft.lingering_potion.effect.lean": "Lingering of Lean",
+      "item.i_forge_gorege.leminigun.description_0": "real",
+      "item.i_forge_gorege.floppa_spawn_egg": "Floppa Spawn Egg",
+      "itemGroup.tabexperimental": "IFG Experimental",
+      "entity.i_forge_gorege.jellybean": "Jellybean",
+      "item.i_forge_gorege.purple_bean": "Purple Bean",
+      "gui.i_forge_gorege.iphone_gui.button_diamond_giver": "Diamond Giver",
+      "gui.i_forge_gorege.iphone_gui.button_gold_giver": "Gold Giver",
+      "item.i_forge_gorege.bedrock_armor_leggings": "Bedrock Leggings",
+      "item.i_forge_gorege.nutgaming_bucket": "Nutgaming Bucket",
+      "item.i_forge_gorege.beans": "Beans",
+      "itemGroup.tabifgblocks": "IFG Blocks",
+      "item.i_forge_gorege.god_beans": "Enchanted Beans",
+      "item.i_forge_gorege.smart": "Smart Race",
+      "item.i_forge_gorege.borgir": "borgir",
+      "enchantment.i_forge_gorege.nut": "Nut",
+      "block.i_forge_gorege.sun": "SUN",
+      "item.i_forge_gorege.smart.desc": "berdly",
+      "gui.i_forge_gorege.beanselect.button_god_beans": "God Beans",
+      "fluid.i_forge_gorege.nutgaming": "\"milk\"",
+      "item.i_forge_gorege.flashlight": "Flashlight(real)",
+      "block.i_forge_gorege.bedrock_stairs": "Bedrock Stairs",
+      "item.i_forge_gorege.bedrock_stairs": "Bedrock Stairs",
+      "block.i_forge_gorege.dont": "...",
+      "subtitles.burenyuu": "burenyuu",
+      "itemGroup.tabitems": "IFG Items",
+      "item.i_forge_gorege.sun": "SUN",
+      "subtitles.smartrace": "bozo music",
+      "entity.i_forge_gorege.floppa": "Floppa",
+      "gui.i_forge_gorege.iphone_gui.button_fly": "Fly",
+      "item_group.i_forge_gorege.experimental": "IFG Experimental",
+      "subtitles.unfunny": "bozo speaking",
+      "item.minecraft.potion.effect.lean": "Lean",
+      "item.i_forge_gorege.dont": "...",
+      "item_group.i_forge_gorege.items": "IFG Items",
+      "item.i_forge_gorege.bedrock_armor_helmet": "Bedrock Helmet",
+      "item.i_forge_gorege.levodid": "Powered Beans(Igniter)",
+      "item.i_forge_gorege.iphone": "Iphone",
+      "item.i_forge_gorege.walmart_obsidian_pickaxe": "Walmart Obsidian Pickaxe",
+      "itemGroup.tabweapons": "IFG Weapons/Armor",
+      "item.i_forge_gorege.bedrock_armor_boots": "Bedrock Boots",
+      "itemGroup.tabifg_tools": "IFG Tools",
+      "item.minecraft.tipped_arrow.effect.lean": "Arrow of Lean",
+      "item_group.i_forge_gorege.foods": "IFG Foods",
+      "gui.i_forge_gorege.iphone_gui.label_creative_menu": "Creative menu",
+      "block.i_forge_gorege.nutgaming": "\"milk\""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Creative Tab",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "i_forge_gorege",
+    "modName": "i forge gorege",
+    "version": "1.1",
+    "description": "you really think i didnt fill this out yet?",
+    "author": "mariogaming",
+    "websiteURL": "https://mcreator.net",
+    "license": "Custom License",
+    "serverSideOnly": false,
+    "modPicture": "sdasdasd1",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "mariogamingcreator",
+    "modElementsPackage": "net.mcreator.iforgegorege"
+  },
+  "mcreatorVersion": 202500113416
+}

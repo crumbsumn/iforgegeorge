@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "i_forge_gorege:blocks/sun",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "i_forge_gorege:sun"
+        }
+      ]
+    }
+  ]
+}

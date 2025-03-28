@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " ae"
+  ],
+  "key": {
+    "a": "minecraft:bread",
+    "b": "#minecraft:leaves",
+    "c": "minecraft:redstone",
+    "d": "minecraft:cooked_beef",
+    "e": "minecraft:yellow_dye"
+  },
+  "result": {
+    "id": "i_forge_gorege:borgir",
+    "count": 1
+  }
+}

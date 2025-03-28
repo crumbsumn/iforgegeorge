@@ -1,0 +1,29 @@
+{
+  "unfunny": {
+    "subtitle": "subtitles.unfunny",
+    "sounds": [
+      {
+        "name": "i_forge_gorege:y2mateis-reading-my-awful-hate-comments-eyr5jz5sqd8-160k-164784320_icyb6fpu",
+        "stream": false
+      }
+    ]
+  },
+  "smartrace": {
+    "subtitle": "subtitles.smartrace",
+    "sounds": [
+      {
+        "name": "i_forge_gorege:y2mate.is-smart-race-hzo3xw91ehw-160k-1647150811853",
+        "stream": false
+      }
+    ]
+  },
+  "burenyuu": {
+    "subtitle": "subtitles.burenyuu",
+    "sounds": [
+      {
+        "name": "i_forge_gorege:burenyuu",
+        "stream": false
+      }
+    ]
+  }
+}

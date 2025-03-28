@@ -1,0 +1,11 @@
+{
+  "_fv": 77,
+  "_type": "tab",
+  "definition": {
+    "name": "IFG Foods",
+    "icon": {
+      "value": "CUSTOM:Beans"
+    },
+    "showSearch": true
+  }
+}

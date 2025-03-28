@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": "i_forge_gorege:walmart_obsidian_pickaxe",
+  "addition": "minecraft:crying_obsidian",
+  "result": {
+    "id": "i_forge_gorege:actual_obsidian_paxel"
+  }
+}

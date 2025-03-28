@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "i_forge_gorege:purple_bean",
+    "b": "minecraft:bucket"
+  },
+  "result": {
+    "id": "i_forge_gorege:beans",
+    "count": 1
+  }
+}
